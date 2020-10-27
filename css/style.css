@@ -56,3 +56,13 @@
 .sesta{
   background-color: #CCB2A3;
 }
+
+/* contact */
+
+.contact button{
+  background-color: #1ABC9C;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border:none;
+}
