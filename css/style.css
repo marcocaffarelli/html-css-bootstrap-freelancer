@@ -20,6 +20,9 @@
 }
 /* /utility */
 
+/* header */
+
+/* navbar */
 .navbar-default{
   color: white;
 }
@@ -27,6 +30,9 @@
   background-color: #2C3E50;
 }
 
+/* main */
+
+/* portfolio */
 .card{
   height: 250px;
   margin-bottom: 30px;
