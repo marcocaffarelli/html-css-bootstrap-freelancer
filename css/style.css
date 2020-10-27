@@ -3,6 +3,14 @@
   background-color: #1ABC9C;
 }
 
+.bc_blue{
+  background-color: #3A546D;
+}
+
+.bc_darkblue{
+  background-color: #2C3E50;
+}
+
 .texte_center{
   text-align: center;
 }
