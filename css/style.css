@@ -11,17 +11,20 @@
   background-color: #2C3E50;
 }
 
-.texte_center{
-  text-align: center;
+.c_white{
+  color: white;
 }
 
+.text_center{
+  text-align: center;
+}
+/* /utility */
 
+.navbar-default{
+  color: white;
+}
 .navbar{
   background-color: #2C3E50;
-}
-
-.starter-template{
-  text-align: center;
 }
 
 .card{
