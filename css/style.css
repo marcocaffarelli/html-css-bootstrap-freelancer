@@ -1,0 +1,41 @@
+/* utility */
+.bc_green{
+  background-color: #1ABC9C;
+}
+
+.texte_center{
+  text-align: center;
+}
+
+
+.navbar{
+  background-color: #2C3E50;
+}
+
+.starter-template{
+  text-align: center;
+}
+
+.card{
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.prima{
+  background-color: #BA4B63;
+}
+.seconda{
+  background-color: #1EA4B6;
+}
+.terza{
+  background-color: black;
+}
+.quarta{
+  background-color: #1C83C1;
+}
+.quinta{
+  background-color: #0E38B5;
+}
+.sesta{
+  background-color: #CCB2A3;
+}
