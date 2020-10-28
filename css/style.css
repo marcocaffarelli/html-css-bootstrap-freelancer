@@ -39,7 +39,7 @@
 /* id colore testo nav */
 #start_white{
   color: white;
-  font-size: 1,5em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 #port_white{
@@ -50,6 +50,16 @@
 }
 #cont_white{
   color: white;
+}
+
+#port_white:hover{
+  color: #1ABC9C;
+}
+#about_white:hover{
+  color: #1ABC9C;
+}
+#cont_white:hover{
+  color: #1ABC9C;
 }
 
 .starter-template h1{
@@ -77,11 +87,13 @@ h2{
 .card img{
   width: 100%;
 }
+
 .overlay{
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
+  color: rgba(255,255, 255, 0);
 }
 
 .fa-plus{
@@ -89,12 +101,13 @@ h2{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   font-size: 80px;
 }
 
 .overlay:hover{
   background-color: rgba(26, 188, 156, 0.9);
+  color: white;
+  cursor: pointer;
 }
 
 /* about */
@@ -103,6 +116,12 @@ h2{
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 30px;
+}
+
+.download i:hover, .fa-facebook-f:hover, .fa-google-plus-g:hover, .fa-twitter:hover, .fa-linkedin-in:hover{
+  background-color: white;
+  color: black;
+
 }
 
 /* contact */
@@ -122,10 +141,14 @@ h2{
 .contact button{
   background-color: #1ABC9C;
   color: white;
-  padding: 5px;
+  padding: 5px 10px;
   border-radius: 5px;
   border:none;
   margin-bottom: 30px;
+}
+
+.contact button:hover{
+  background-color: #159a80;
 }
 
 /* footer */
@@ -133,11 +156,28 @@ h2{
 .icon_footer i{
   border: 1px solid white;
   border-radius: 50%;
-  padding: 10px;
+  margin: 0 3px;
+}
+
+.fa-facebook-f{
+  padding: 10px 13px;
+}
+.fa-google-plus-g{
+  padding: 10px 9px;
+}
+.fa-twitter{
+  padding: 10px 10px;
+}
+.fa-linkedin-in{
+  padding: 10px 11px;
 }
 
 .bc_blue a{
   color: #1ABC9C;
+}
+
+.bc_blue a:hover{
+  color: #159a80;
 }
 
 .bc_darkblue p{
