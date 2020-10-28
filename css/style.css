@@ -77,13 +77,24 @@ h2{
   padding-bottom: 20px;
 }
 /* portfolio */
+
 .card{
   margin-bottom: 30px;
   position: relative;
 }
 
+.left_lin, .right_lin{
+  display: inline-block;
+  background-color: #3A546D;
+  height: 2px;
+  width: 160px;
+  margin-bottom: 4px;
+}
+
 .card img{
   width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
   height: auto;
 }
 
@@ -93,6 +104,8 @@ h2{
   width: 100%;
   height: 100%;
   color: rgba(255,255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
 }
 
 .fa-plus{
@@ -181,4 +194,14 @@ h2{
 
 .bc_darkblue p{
   font-size: 10px;
+}
+
+.starter-template .left_lin, .starter-template .right_lin, .about .left_lin, .about .right_lin{
+  background-color: white;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .card img{
+    max-height: 328.6px;
+  }
 }
