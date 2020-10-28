@@ -27,7 +27,6 @@
 /* /utility */
 
 /* header */
-
 /* navbar */
 .navbar-default{
   color: white;
@@ -80,12 +79,12 @@ h2{
 /* portfolio */
 .card{
   margin-bottom: 30px;
-  border-radius: 10px;
   position: relative;
 }
 
 .card img{
   width: 100%;
+  height: auto;
 }
 
 .overlay{
