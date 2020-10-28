@@ -1,6 +1,7 @@
 /* utility */
 .bc_green{
   background-color: #1ABC9C;
+  color: white;
 }
 
 .bc_blue{
@@ -11,8 +12,8 @@
   background-color: #2C3E50;
 }
 
-.text_center{
-  text-align: center;
+.mt_30{
+  margin-top: 30px;
 }
 /* /utility */
 
@@ -42,31 +43,47 @@
   color: white;
 }
 
+.starter-template h1{
+  font-size: 50px;
+  font-weight: bold;
+}
 /* main */
 
+h2{
+  font-size: 40px;
+  font-weight: bolder;
+}
 /* portfolio */
 .card{
   height: 250px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 
 .prima{
   background-color: #BA4B63;
+  background-image: url(../img/cabin.png);
+  background-size: cover;
 }
 .seconda{
-  background-color: #1EA4B6;
+  background-image: url(../img/torta.png);
+  background-size: cover;
 }
 .terza{
-  background-color: black;
+  background-image: url(../img/tendone.png);
+  background-size: cover;
 }
 .quarta{
-  background-color: #1C83C1;
+  background-image: url(../img/joypad.png);
+  background-size: cover;
 }
 .quinta{
-  background-color: #0E38B5;
+  background-image: url(../img/safe.png);
+  background-size: cover;
 }
 .sesta{
-  background-color: #CCB2A3;
+  background-image: url(../img/submarine.png);
+  background-size: cover;
 }
 
 /* contact */
