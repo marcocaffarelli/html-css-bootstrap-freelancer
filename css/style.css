@@ -58,13 +58,23 @@ h2{
 }
 /* portfolio */
 .card{
-  height: 250px;
   margin-bottom: 30px;
   border-radius: 10px;
+  position: relative;
 }
 
 .card img{
   width: 100%;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay:hover{
+  background-color: rgba(26, 188, 156, 0.9);
 }
 
 /* about */
