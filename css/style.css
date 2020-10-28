@@ -1,7 +1,6 @@
 /* utility */
 .bc_green{
   background-color: #1ABC9C;
-  color: white;
 }
 
 .bc_blue{
@@ -10,6 +9,10 @@
 
 .bc_darkblue{
   background-color: #2C3E50;
+}
+
+.bc_green, .bc_blue, .bc_darkblue{
+  color: white;
 }
 
 .mt_30{
@@ -60,30 +63,16 @@ h2{
   border-radius: 10px;
 }
 
-.prima{
-  background-color: #BA4B63;
-  background-image: url(../img/cabin.png);
-  background-size: cover;
+.card img{
+  width: 100%;
 }
-.seconda{
-  background-image: url(../img/torta.png);
-  background-size: cover;
-}
-.terza{
-  background-image: url(../img/tendone.png);
-  background-size: cover;
-}
-.quarta{
-  background-image: url(../img/joypad.png);
-  background-size: cover;
-}
-.quinta{
-  background-image: url(../img/safe.png);
-  background-size: cover;
-}
-.sesta{
-  background-image: url(../img/submarine.png);
-  background-size: cover;
+
+/* about */
+.download i{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 30px;
 }
 
 /* contact */
@@ -94,4 +83,12 @@ h2{
   padding: 5px;
   border-radius: 5px;
   border:none;
+}
+
+/* footer */
+
+.icon_footer i{
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 10px;
 }
